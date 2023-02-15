@@ -13,6 +13,7 @@ Rails.application.routes.draw do
           get :locations
           get :spots_by_location
           get :current_user_spots
+          get :high_ranking_spots
         end
         resources :reviews
       end
