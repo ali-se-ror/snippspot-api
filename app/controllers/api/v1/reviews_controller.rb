@@ -12,6 +12,7 @@ module Api
 
       def create
         @review = Review.create(review_params)
+        @review.user_id = current_user.id
         render_error_messages(@review) unless @review.save
 
         @spot.update(spot_rating: @spot.reviews.average(:rating).round(1))
