@@ -13,4 +13,4 @@
 
 **Schema**
 
-![Readme.png](..%2F..%2FPictures%2FReadme.png)
+![Readme](https://user-images.githubusercontent.com/39479087/219454126-5e7042a1-c01d-4afe-b438-8c53cf6f8ff3.png)
