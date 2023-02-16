@@ -56,6 +56,7 @@ end
 
 group :development do
   gem 'database_cleaner-active_record'
+  gem 'rails-erd'
   gem 'rspec-rails'
   gem 'shoulda-matchers', '~> 5.0'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]

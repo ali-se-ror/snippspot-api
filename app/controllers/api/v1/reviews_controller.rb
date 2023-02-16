@@ -2,12 +2,12 @@ module Api
   module V1
     class ReviewsController < Api::V1::ApiController
       before_action :find_spot, only: %w[index create update]
+      before_action :authenticate_request, only: %w[create update]
 
       def index
         @reviews = @spot.reviews.all.reverse
         return render json: { message: 'No Reviews For This Spot' }, status: :not_found unless @reviews.present?
 
-        render json: { review: @reviews }, status: :ok
       end
 
       def create

@@ -10,3 +10,7 @@
 3. For database migration use **rails db:migrate**
 4. Run command **ifconfig** to check the ip which will be used as the endpoint of api's
 5. To run the server use command **rails s -b 0.0.0.0**
+
+**Schema**
+
+![Readme.png](..%2F..%2FPictures%2FReadme.png)
