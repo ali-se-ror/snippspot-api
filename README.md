@@ -10,7 +10,9 @@
 3. For database migration use **rails db:migrate**
 4. Run command **ifconfig** to check the ip which will be used as the endpoint of api's
 5. To run the server use command **rails s -b 0.0.0.0**
+6. To run test cases run command **bundle exec rspec**
 
 **Schema**
 
-![Readme](https://user-images.githubusercontent.com/39479087/219454126-5e7042a1-c01d-4afe-b438-8c53cf6f8ff3.png)
+
+![Schema_erd](https://user-images.githubusercontent.com/39479087/219477222-df1f4d30-8bdb-48f0-94f1-7360253fe6f1.png)
